@@ -1,3 +1,6 @@
+html, body, #root{
+  height: 100%;
+}
 .App {
   min-height: 100%;
   height: max-content;
@@ -42,12 +45,12 @@
   color: white;
 }
 
-.choice.right{
+.choice.green{
   background-color: #60bf88;
   border: 2px solid #60bf88;
   color: white;
 }
-.choice.wrong{
+.choice.red{
   background-color: #ea8282;
   border: 2px solid #ea8282;
   color: white;
