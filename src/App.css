@@ -19,13 +19,17 @@ html, body, #root{
   width: 425px;
   position: relative;
 }
+.white-box.results{
+  text-align: center;
+  padding: 5em 0;
+}
 .traveler{
   position: absolute;
   top: -70px;
   right: 0;
 }
 .question-grid{
-  padding: 3em 2em;
+  padding: 3em 2em 2em;
   color: #2f527b;
 }
 .choice{
@@ -54,4 +58,17 @@ html, body, #root{
   background-color: #ea8282;
   border: 2px solid #ea8282;
   color: white;
+}
+.question-footer{
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  padding: 16px;
+  margin: 0 10px;
+  background: #f9a826;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
 }
