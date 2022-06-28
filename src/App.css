@@ -23,6 +23,11 @@ html, body, #root{
   text-align: center;
   padding: 5em 0;
 }
+.white-box.results p span{
+  font-size: 2em;
+  color: #60bf88;
+  font-weight: bold;
+}
 .traveler{
   position: absolute;
   top: -70px;

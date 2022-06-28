@@ -70,7 +70,7 @@ function App() {
           <section className='white-box results'>
             <img className="winners" src={Winners} alt='two winners with a trophy in the middle'/>
             <h1>Results</h1>
-            <p>You got {counter} correct answers</p>
+            <p>You got <span>{counter}</span> correct answers</p>
             <button onClick={()=>{setCounter(0);setResults(false); getRandom()}}>Try Again</button>
           </section>
         )}

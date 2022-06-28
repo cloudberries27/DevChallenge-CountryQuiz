@@ -14,7 +14,6 @@ export default function Question({country, question, choices, increment, getRand
             event.currentTarget.lastChild.innerText = "highlight_off"
             setFinish(true)
         }
-        // disable all choices
     }
     return(
         <div className='question-grid'>
@@ -24,7 +23,7 @@ export default function Question({country, question, choices, increment, getRand
             <h2>{question}</h2>
             {choices.map((choice, key) => {
                 return(
-                    <div id={key} className={answered && choice===country.name.common ? 'choice green' : 'choice'} onClick={(event) => checkAnswer(event)}>
+                    <div key={key} className={answered && choice===country.name.common ? 'choice green' : 'choice'} onClick={!answered ? ((event) => checkAnswer(event)): undefined}>
                         <p>{choice}</p>
                         <span className="material-icons">
                             {answered && choice ===country.name.common && 'check_circle_outline'}
