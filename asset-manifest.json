@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DevChallenge-CountryQuiz/static/css/main.425e16aa.css",
+    "main.js": "/DevChallenge-CountryQuiz/static/js/main.6d686fd5.js",
+    "static/media/winners.svg": "/DevChallenge-CountryQuiz/static/media/winners.d76bfdf87016eda38fd439d929ce0371.svg",
+    "static/media/background.png": "/DevChallenge-CountryQuiz/static/media/background.41dbc5504a105eae7176.png",
+    "static/media/adventure.svg": "/DevChallenge-CountryQuiz/static/media/adventure.182b6171bba7c99e5444500b4daec361.svg",
+    "index.html": "/DevChallenge-CountryQuiz/index.html",
+    "main.425e16aa.css.map": "/DevChallenge-CountryQuiz/static/css/main.425e16aa.css.map",
+    "main.6d686fd5.js.map": "/DevChallenge-CountryQuiz/static/js/main.6d686fd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.425e16aa.css",
+    "static/js/main.6d686fd5.js"
+  ]
+}
